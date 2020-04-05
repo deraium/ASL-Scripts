@@ -33,8 +33,8 @@ init {
 }
 
 startup {
-    setting.Add("info", true, "---Info---");
-    setting.Add("info_1", true, "supported: FCEUX, Nestopia(maybe), Gotvg", "info");
+    settings.Add("info", true, "---Info---");
+    settings.Add("info_1", true, "supported: FCEUX, Nestopia(maybe), Gotvg", "info");
 }
 
 start {
