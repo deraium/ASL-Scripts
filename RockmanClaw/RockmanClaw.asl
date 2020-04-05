@@ -42,7 +42,7 @@ start {
 }
 
 reset {
-	return current.stage == 10 && current.timer == 0 && current.xpos == 0;
+	return current.stage == 10 && current.timer == 0;
 }
 
 split {
