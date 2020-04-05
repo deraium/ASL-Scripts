@@ -20,6 +20,16 @@ state("nestopia")
 	byte timer : "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0xA4;
 }
 
+state("X-Zone") {
+    // C6B188
+    byte boss_hp : "emulib3.dll", 0xC6B849;
+    byte music : "emulib3.dll", 0xC6B689;
+    byte note : "emulib3.dll", 0xC6B688;
+    byte stage : "emulib3.dll", 0xC6B1B9;
+    byte boss_id : "emulib3.dll", 0xC6B234;
+    byte timer : "emulib3.dll", 0xC6B1C4;
+}
+
 init
 {
 	refreshRate = 60;
@@ -44,7 +54,7 @@ split
             return true;
         }
     } else {
-        if (current.boss_hp == 0 && old.boss_hp > 0 && boss_id == 10) {
+        if (current.boss_hp == 0 && old.boss_hp > 0 && current.boss_id == 10) {
             return true;
         }
     }
