@@ -1,6 +1,8 @@
+
 # ASL-Scripts
+
 Autosplitter scripts for LiveSplit
 
-# Games
+# Supported Games
 
 * Rockman Claw

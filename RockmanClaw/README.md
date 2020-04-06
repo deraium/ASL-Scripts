@@ -1,6 +1,6 @@
 # Rockman Claw (Rockman hack by Tsukikuro)
 
-supports emulators:
+supported emulators:
 
 * FCEUX
 * Nestopia
