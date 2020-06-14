@@ -1,4 +1,4 @@
-# Rockman Claw (Rockman hack by Tsukikuro)
+# Autosplit Script for Rockman Claw (Rockman hack by Tsukikuro)
 
 supported emulators:
 
